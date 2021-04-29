@@ -16,3 +16,9 @@
   background-repeat: no-repeat;
   border-radius: 15px;
 }
+
+.about-me__image {
+  border-radius: 50%;
+  border: 5px solid white;
+  
+}
