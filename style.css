@@ -1,0 +1,18 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background: lightblue;
+}
+
+.profile-card {
+  width: 25%;
+  height: 50%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  background-image: url("bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
