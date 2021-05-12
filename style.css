@@ -9,8 +9,7 @@
   height: 50%;
   margin: auto;
   margin-top: 10%;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   background-color: white;
   background-image: url("bg-pattern-card.svg");
   background-repeat: no-repeat;
@@ -20,5 +19,9 @@
 .about-me__image {
   border-radius: 50%;
   border: 5px solid white;
-  
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
 }
