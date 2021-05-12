@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "main-font";
+  src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "second-font";
+  src:url(https://fonts.google.com/specimen/Kumbh+Sans);
+  font-weight: 400;
+}
+
+
 .body {
   margin: 0;
   padding: 0;
@@ -22,6 +35,7 @@
 }
 
 .social-media {
+  font-family: "main-font";
   display: flex;
   justify-content: space-around;
 }
