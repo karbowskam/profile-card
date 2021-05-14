@@ -1,23 +1,21 @@
 @font-face {
   font-family: "main-font";
   src: url("KumbhSans-Regular.ttf") format("truetype");
-  font-weight: 700;
 }
 
 @font-face {
   font-family: "bold-font";
   src: url("KumbhSans-Bold.ttf") format("truetype");
-  font-weight: 700;
 }
 
 @font-face {
   font-family: "second-font";
   src:url("KumbhSans-Light.ttf") format("truetype");
-  font-weight: 400;
 }
 
 
 .body {
+  font-family: "main-font";
   margin: 0;
   padding: 0;
   background:hsl(185, 75%, 39%);
@@ -72,14 +70,15 @@
   padding-top: 20px;
 }
 
-.social-media__numbers {
+.social-media__element {
   text-align: center;
-  font-family: "bold-font";
-  font-weight: 700;
 }
 
-.social-media__desc {
-  text-align: center;
+.social-media__element--numbers {
+  font-family: "bold-font";
+}
+
+.social-media__element--desc {
   font-family: "second-font";
   font-size: 12px;
 }
