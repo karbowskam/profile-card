@@ -24,6 +24,7 @@
   background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
   background-position: -90% 100%, 170% -70%;
   background-repeat: no-repeat, no-repeat;
+  font-size: 18px;
 }
 
 .profile-card {
@@ -52,6 +53,9 @@
   margin-top: 15px;
 }
 
+.about-me__name-age--name {
+  font-family: "bold-font";
+}
 
 .about-me__city {
   font-size: 14px;
@@ -59,7 +63,6 @@
 }
 
 .social-media {
-  font-family: "main-font";
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -67,4 +70,16 @@
   border-top: rgb(219, 237, 243) 1px solid;
   margin-top: 20px;
   padding-top: 20px;
+}
+
+.social-media__numbers {
+  text-align: center;
+  font-family: "bold-font";
+  font-weight: 700;
+}
+
+.social-media__desc {
+  text-align: center;
+  font-family: "second-font";
+  font-size: 12px;
 }
