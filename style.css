@@ -44,6 +44,7 @@
 
 .social-media {
   font-family: "main-font";
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
