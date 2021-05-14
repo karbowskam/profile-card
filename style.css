@@ -15,6 +15,9 @@
   margin: 0;
   padding: 0;
   background: lightblue;
+  background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+  background-position: -90% 100%, 170% -70%;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .profile-card {
@@ -36,6 +39,7 @@
 .about-me__image {
   border-radius: 50%;
   border: 5px solid white;
+  margin-top: 25%;
 }
 
 .social-media {
