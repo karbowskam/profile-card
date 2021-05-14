@@ -48,9 +48,23 @@
   margin-top: 90px;
 }
 
+.about-me__name-age {
+  margin-top: 15px;
+}
+
+
+.about-me__city {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 .social-media {
   font-family: "main-font";
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  row-gap: 7px;
+  border-top: rgb(219, 237, 243) 1px solid;
+  margin-top: 20px;
+  padding-top: 20px;
 }
