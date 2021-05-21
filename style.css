@@ -1,7 +1,28 @@
+@font-face {
+  font-family: "main-font";
+  src: url("KumbhSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "bold-font";
+  src: url("KumbhSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "second-font";
+  src:url("KumbhSans-Light.ttf") format("truetype");
+}
+
+
 .body {
+  font-family: "main-font";
   margin: 0;
   padding: 0;
-  background: lightblue;
+  background:hsl(185, 75%, 39%);
+  background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+  background-position: -90% 100%, 170% -70%;
+  background-repeat: no-repeat, no-repeat;
+  font-size: 18px;
 }
 
 .profile-card {
@@ -9,19 +30,55 @@
   height: 50%;
   margin: auto;
   margin-top: 10%;
-  display: inline-block;
   background-color: white;
   background-image: url("bg-pattern-card.svg");
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 
+.about-me {
+  width: 100%;
+  text-align: center;
+}
+
 .about-me__image {
   border-radius: 50%;
   border: 5px solid white;
+  margin-top: 90px;
+}
+
+.about-me__name-age {
+  margin-top: 15px;
+}
+
+.about-me__name-age--name {
+  font-family: "bold-font";
+}
+
+.about-me__city {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .social-media {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 7px;
+  border-top: rgb(219, 237, 243) 1px solid;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.social-media__element {
+  text-align: center;
+}
+
+.social-media__element--numbers {
+  font-family: "bold-font";
+}
+
+.social-media__element--desc {
+  font-family: "second-font";
+  font-size: 12px;
 }
